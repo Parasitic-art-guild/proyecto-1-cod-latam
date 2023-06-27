@@ -29,7 +29,7 @@
 h1 {
     font-size: 36px;
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -68,8 +68,8 @@ header nav {
     align-items: center;
     height: 90px;
     background: #fbfbfb;
-    width: 360px;
-    padding: 10px;
+    width: 100%;
+    padding: 30px;
     box-shadow: 0 10px 15px 1px #5f5f5f;
 
 }
@@ -81,8 +81,8 @@ header nav a img {
 body {
     /*max-width: 740px;*/
     /*antes 1200*/
-width: 100%;     
-   margin: auto;
+    width: 100%;
+    margin: auto;
 }
 
 #inicio figure img {
@@ -93,45 +93,58 @@ width: 100%;
 
 section {
     min-height: 100vh;
-    padding-top: 20px;
+    padding-top: 100px;
     padding-bottom: 20px;
-
-	
-
 }
+
+#hablemos {
+
+    width: 80%;
+    height: 90%;
+    background: rgba(175, 89, 158, 0.3);
+    padding: 0px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 #inicio {
     padding-top: 150px;
 
 }
 
-#inicio a { 
-background: #af599e;
-color: #fbfbfb;   
-border-radius: 20%;
-font-size: 20px;
-display: inline-block;
-width: 300px;
-height: 40px;
-margin:25px;
-padding:0;
-boder:0;
+#inicio a {
+    background: #af599e;
+    color: #fbfbfb;
+    border-radius: 20%;
+    font-size: 20px;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    margin: 25px;
+    padding: 0;
+    boder: 0;
 }
 
-#contacto img {height: 90px;width: 90px;}
+#contacto img {
+    height: 90px;
+    width: 90px;
+}
 
 #contacto ul {
-    padding-top: 50px;
+
     display: flex;
     /*flex-direction:row;*/
     justify-content: space-between;
     align-items: center;
     height: 90px;
     background: #fbfbfb;
-    width: 740px;
-    padding: 100px;
+    width: 100%;
+    padding: 70px;
 
-    
+
 
 }
 
@@ -143,7 +156,7 @@ boder:0;
 
 
 
-/* Recomendaciones! 
+    /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
 *    "estilos generales". Una buena idea sería comenzar por el <body> ;)
 *
