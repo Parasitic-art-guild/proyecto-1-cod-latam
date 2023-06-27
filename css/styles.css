@@ -20,9 +20,10 @@
     background: #fbfbfb;
     line-height: 1.2;
     text-align: center;
-    /*justify-content: center;*/
+    justify-content: center;
     vertical-align: middle;
     font-size: 18px;
+
 }
 
 h1 {
@@ -67,7 +68,7 @@ header nav {
     align-items: center;
     height: 90px;
     background: #fbfbfb;
-    width: 740px;
+    width: 360px;
     padding: 10px;
     box-shadow: 0 10px 15px 1px #5f5f5f;
 
@@ -78,9 +79,10 @@ header nav a img {
 }
 
 body {
-    max-width: 740px;
+    /*max-width: 740px;*/
     /*antes 1200*/
-    margin: auto;
+width: 100%;     
+   margin: auto;
 }
 
 #inicio figure img {
@@ -93,11 +95,27 @@ section {
     min-height: 100vh;
     padding-top: 20px;
     padding-bottom: 20px;
+
+	
+
 }
 
 #inicio {
     padding-top: 150px;
 
+}
+
+#inicio a { 
+background: #af599e;
+color: #fbfbfb;   
+border-radius: 20%;
+font-size: 20px;
+display: inline-block;
+width: 300px;
+height: 40px;
+margin:25px;
+padding:0;
+boder:0;
 }
 
 #contacto img {height: 90px;width: 90px;}
@@ -112,16 +130,18 @@ section {
     background: #fbfbfb;
     width: 740px;
     padding: 100px;
+
     
 
 }
 
 
-footer {
+#contacto footer p {
     background: #af599e;
     color: #fbfbfb;
     height: 90px;
-}
+
+
 
 /* Recomendaciones! 
 *  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
