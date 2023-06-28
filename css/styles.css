@@ -17,7 +17,6 @@
     padding: 0;
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
-    background: #fbfbfb;
     line-height: 1.2;
     text-align: center;
     justify-content: center;
@@ -25,6 +24,7 @@
     font-size: 18px;
 
 }
+
 
 h1 {
     font-size: 36px;
@@ -83,6 +83,8 @@ body {
     /*antes 1200*/
     width: 100%;
     margin: auto;
+    background: #fbfbfb;
+
 }
 
 #inicio figure img {
@@ -99,7 +101,7 @@ section {
 
 #inicio {
     padding-top: 150px;
-
+    
 }
 
 #inicio a {
@@ -107,18 +109,17 @@ section {
     color: #fbfbfb;
     border-radius: 20%;
     font-size: 20px;
-    display: inline-block;
-    width: 300px;
-    height: 40px;
-    margin: 25px;
-    padding: 0;
-    border: 0;
+    /*display: inline-block;*/
+    width: 200px;
+    height: 50px;   
+      /*padding: 0;*/
+    /*border: 0;*/
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#article h2{
-
- background: red);
-}
 
 #contacto img {
     height: 90px;
@@ -135,9 +136,6 @@ section {
     background: #fbfbfb;
     width: 100%;
     padding: 70px;
-
-
-
 }
 
 
@@ -145,6 +143,18 @@ section {
     background: #af599e;
     color: #fbfbfb;
     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+#contacto article {
+    background-color: rgba(175, 89, 158, 0.3);
+    border-radius: 10%;
+    display: flexbox;
+    max-width: 100%;
+  
 
+}
+
+p {padding-bottom: 20px;}
