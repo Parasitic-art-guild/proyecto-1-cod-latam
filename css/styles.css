@@ -22,6 +22,7 @@
     justify-content: center;
     vertical-align: middle;
     font-size: 18px;
+    flex-direction: row;
 
 }
 
@@ -36,11 +37,10 @@ h2 {
     font-size: 28px;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 
-/* Para quitar los puntos a los items de listas */
+/* Para quitar los puntos a los items de listas*/
 ul {
     list-style: none;
 }
@@ -71,7 +71,8 @@ header nav {
     width: 100%;
     padding: 30px;
     box-shadow: 0 10px 15px 1px #5f5f5f;
-
+    max-width: 100%;
+    width: 1200px;
 }
 
 header nav a img {
@@ -79,11 +80,11 @@ header nav a img {
 }
 
 body {
-    /*max-width: 740px;*/
-    /*antes 1200*/
-    width: 100%;
+    max-width: 100%;
+    width: 1200px;    
     margin: auto;
     background: #fbfbfb;
+
 
 }
 
@@ -95,26 +96,20 @@ body {
 
 section {
     min-height: 100vh;
-    padding-top: 100px;
+    padding-top: 130px;
     padding-bottom: 20px;
+    
 }
 
-#inicio {
-    padding-top: 100px;
 
-}
-
-#inicio a {
+#inicio a  {
     background: #af599e;
     color: #fbfbfb;
-    border-radius: 20%;
+    border-radius: 50px/45px;
     font-size: 20px;
-    /*display: inline-block;*/
-    width: 200px;
+    width: 250px;
     height: 50px;
-    /*padding: 0;*/
-    /*border: 0;*/
-
+    
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -150,7 +145,7 @@ section {
 
 #contacto article {
     background-color: rgba(175, 89, 158, 0.3);
-    border-radius: 10%;
+    border-radius: 5%;
     display: flexbox;
     max-width: 100%;
 
