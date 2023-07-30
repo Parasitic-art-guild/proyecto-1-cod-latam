@@ -145,7 +145,7 @@ section {
     padding: 70px;
 }
 
-
+/*
 #contacto footer p {
     background: #af599e;
     color: #fbfbfb;
@@ -154,6 +154,16 @@ section {
     justify-content: center;
     align-items: center;
 }
+*/
+footer p {
+    background: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #contacto article {
     background-color: rgba(175, 89, 158, 0.3);
